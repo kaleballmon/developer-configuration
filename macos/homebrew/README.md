@@ -18,8 +18,7 @@ brew bundle install
 
 In this method, getting any updates from the Brewfile in the repository will have to be done manually.
 
-*This is the recommended when setting up a machine if you will start
-building Brewfiles that are specific to the machine.*
+**This method is recommended when setting up a machine if you will create a Brewfile that are specific to the machine.**
 
 ### Symlink to root
 You can symlink the Brewfile in the user root directory to this Brewfile and souce it.
@@ -38,3 +37,5 @@ You can also simply install the specific packages in the Brewfile.
 ```shell
 brew bundle install --file=path/to/developer-configuration/macos/homebrew/Brewfile
 ```
+
+**This method is recommended when setting up a machine if you do not plan on creating a Brewfile that is specific to the machine.**
