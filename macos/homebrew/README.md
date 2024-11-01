@@ -45,3 +45,9 @@ brew bundle install
 
 This way, whenever changes are pushed to the Brewfile in this repository, they will automatically be added
 to the Brewfile the machine is looking at.
+
+## Formulae Listing
+### [zsh-history-substring-search](https://formulae.brew.sh/formula/zsh-history-substring-search)
+A Zsh port of Fish shell's history search.
+
+**Note: Extra configuration is needed for this to work automatically on shell startups.**
