@@ -17,8 +17,9 @@ brew bundle install
 ```
 
 In this method, getting any updates from the Brewfile in the repository will have to be done manually.
-This is generally a good path to follow when setting up machines for work/personal use, if you will start
-building Brewfiles that are specific to the machine.
+
+*This is the recommended when setting up a machine if you will start
+building Brewfiles that are specific to the machine.*
 
 ### Symlink to root
 You can symlink the Brewfile in the user root directory to this Brewfile and souce it.
