@@ -20,6 +20,12 @@ In this method, getting any updates from the Brewfile in the repository will hav
 
 **This method is recommended when setting up a machine if you will create a Brewfile that are specific to the machine.**
 
+To see which lines in the repository's Brewfile that aren't in your local machine's Brewfile, run this command
+
+```shell
+comm -13 <(sort ~/Brewfile) <(sort path/to/developer-configuration/macos/homebrew/Brewfile)
+```
+
 ### Symlink to root
 You can symlink the Brewfile in the user root directory to this Brewfile and souce it.
 
