@@ -26,6 +26,15 @@ To see which lines in the repository's Brewfile that aren't in your local machin
 comm -13 <(sort ~/Brewfile) <(sort path/to/developer-configuration/macos/homebrew/Brewfile)
 ```
 
+### Direct install
+You can also simply install the specific packages in the Brewfile.
+
+```shell
+brew bundle install --file=path/to/developer-configuration/macos/homebrew/Brewfile
+```
+
+**This method is recommended when setting up a machine if you do not plan on creating a Brewfile that is specific to the machine.**
+
 ### Symlink to root
 You can symlink the Brewfile in the user root directory to this Brewfile and souce it.
 
@@ -36,12 +45,3 @@ brew bundle install
 
 This way, whenever changes are pushed to the Brewfile in this repository, they will automatically be added
 to the Brewfile the machine is looking at.
-
-### Direct install
-You can also simply install the specific packages in the Brewfile.
-
-```shell
-brew bundle install --file=path/to/developer-configuration/macos/homebrew/Brewfile
-```
-
-**This method is recommended when setting up a machine if you do not plan on creating a Brewfile that is specific to the machine.**
