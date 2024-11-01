@@ -24,7 +24,7 @@ building Brewfiles that are specific to the machine.
 You can symlink the Brewfile in the user root directory to this Brewfile and souce it.
 
 ```shell
-ln -s 
+ln -s /absolute/path/to/developer-configuration/macos/homebrew/Brewfile ~/Brewfile
 brew bundle install
 ```
 
