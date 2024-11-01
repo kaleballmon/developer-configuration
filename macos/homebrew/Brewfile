@@ -1,1 +1,2 @@
 brew "zsh-history-substring-search"
+brew "zsh-syntax-highlighting"

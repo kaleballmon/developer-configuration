@@ -51,3 +51,8 @@ to the Brewfile the machine is looking at.
 A Zsh port of Fish shell's history search.
 
 **Note: Extra configuration is needed for this to work automatically on shell startups.**
+
+### [zsh-syntax-highlighting](https://formulae.brew.sh/formula/zsh-syntax-highlighting)
+Fish shell-like syntax highlighting for Zsh.
+
+**Note: Extra configuration is needed for this to work automatically on shell startups.**
