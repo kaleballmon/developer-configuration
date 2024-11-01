@@ -5,7 +5,7 @@ The most important file here is the [Brewfile](https://thoughtbot.com/blog/brewf
 which contains the packages I install with brew generally, regardless of what the machine is for. Items should
 only be added to the Brewfile in this directory if it is that pervasive across the MacOS machines I use.
 
-## Using this Brewfile
+## Using the Brewfile
 There are multiple ways to use the Brewfile in this repository.
 
 ### Copy to root
@@ -46,7 +46,7 @@ brew bundle install
 This way, whenever changes are pushed to the Brewfile in this repository, they will automatically be added
 to the Brewfile the machine is looking at.
 
-## Formulae Listing
+## Brewfile Formulae Listing
 ### [zsh-history-substring-search](https://formulae.brew.sh/formula/zsh-history-substring-search)
 A Zsh port of Fish shell's history search.
 
