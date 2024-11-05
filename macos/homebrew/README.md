@@ -47,6 +47,10 @@ This way, whenever changes are pushed to the Brewfile in this repository, they w
 to the Brewfile the machine is looking at.
 
 ## Brewfile Formulae Listing
+### [the_silver_searcher](https://formulae.brew.sh/formula/the_silver_searcher)
+The `ag` command, which is a code-search commandline utility.
+
+
 ### [zsh-history-substring-search](https://formulae.brew.sh/formula/zsh-history-substring-search)
 A Zsh port of Fish shell's history search.
 

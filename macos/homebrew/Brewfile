@@ -1,2 +1,3 @@
+brew "the_silver_searcher"
 brew "zsh-history-substring-search"
 brew "zsh-syntax-highlighting"
