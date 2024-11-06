@@ -47,6 +47,9 @@ This way, whenever changes are pushed to the Brewfile in this repository, they w
 to the Brewfile the machine is looking at.
 
 ## Brewfile Formulae Listing
+### [fzf](https://formulae.brew.sh/formula/fzf)
+A general-purpose command-line fuzzy finder.
+
 ### [starship](https://formulae.brew.sh/formula/starship)
 The [starship](https://starship.rs/) cross-shell prompt.
 
