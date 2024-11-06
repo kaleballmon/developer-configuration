@@ -5,6 +5,7 @@ The most important file here is the [Brewfile](https://thoughtbot.com/blog/brewf
 which contains the packages I install with brew generally, regardless of what the machine is for. Items should
 only be added to the Brewfile in this directory if it is that pervasive across the MacOS machines I use.
 
+
 ## Using the Brewfile
 There are multiple ways to use the Brewfile in this repository.
 
@@ -46,26 +47,46 @@ brew bundle install
 This way, whenever changes are pushed to the Brewfile in this repository, they will automatically be added
 to the Brewfile the machine is looking at.
 
+
 ## Brewfile Formulae Listing
+
+### [diffnav](https://github.com/dlvhdr/diffnav)
+
+A better `git diff` pager.
+
+**Note: Extra configuration is needed for this to work automatically on shell startups.**
+
 ### [fzf](https://formulae.brew.sh/formula/fzf)
+
 A general-purpose command-line fuzzy finder.
 
+**Note: Extra configuration is needed for this to work automatically on shell startups.**
+
 ### [starship](https://formulae.brew.sh/formula/starship)
+
 The [starship](https://starship.rs/) cross-shell prompt.
 
+**Note: Extra configuration is needed for this to work automatically on shell startups.**
+
 ### [the_silver_searcher](https://formulae.brew.sh/formula/the_silver_searcher)
+
 The `ag` command, which is a code-search commandline utility.
 
 ### [zsh-history-substring-search](https://formulae.brew.sh/formula/zsh-history-substring-search)
+
 A Zsh port of Fish shell's history search.
 
 **Note: Extra configuration is needed for this to work automatically on shell startups.**
 
 ### [zsh-syntax-highlighting](https://formulae.brew.sh/formula/zsh-syntax-highlighting)
+
 Fish shell-like syntax highlighting for Zsh.
 
 **Note: Extra configuration is needed for this to work automatically on shell startups.**
 
+
 ## Brewfile Cask Listing
+
 ### [font-fira-code-nerd-font](https://formulae.brew.sh/cask/font-fira-code-nerd-font)
+
 The Fira Code Nerd Font for use as my terminal font.
