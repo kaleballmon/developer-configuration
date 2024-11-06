@@ -47,9 +47,11 @@ This way, whenever changes are pushed to the Brewfile in this repository, they w
 to the Brewfile the machine is looking at.
 
 ## Brewfile Formulae Listing
+### [starship](https://formulae.brew.sh/formula/starship)
+The [starship](https://starship.rs/) cross-shell prompt.
+
 ### [the_silver_searcher](https://formulae.brew.sh/formula/the_silver_searcher)
 The `ag` command, which is a code-search commandline utility.
-
 
 ### [zsh-history-substring-search](https://formulae.brew.sh/formula/zsh-history-substring-search)
 A Zsh port of Fish shell's history search.
@@ -60,3 +62,7 @@ A Zsh port of Fish shell's history search.
 Fish shell-like syntax highlighting for Zsh.
 
 **Note: Extra configuration is needed for this to work automatically on shell startups.**
+
+## Brewfile Cask Listing
+### [font-fira-code-nerd-font](https://formulae.brew.sh/cask/font-fira-code-nerd-font)
+The Fira Code Nerd Font for use as my terminal font.
