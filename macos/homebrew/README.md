@@ -72,6 +72,10 @@ The [starship](https://starship.rs/) cross-shell prompt.
 
 The `ag` command, which is a code-search commandline utility.
 
+### [tmux](https://formulae.brew.sh/formula/tmux)
+
+Terminal multiplexer.
+
 ### [zsh-history-substring-search](https://formulae.brew.sh/formula/zsh-history-substring-search)
 
 A Zsh port of Fish shell's history search.

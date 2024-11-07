@@ -4,6 +4,7 @@ brew "dlvhdr/formulae/diffnav"
 brew "fzf"
 brew "starship"
 brew "the_silver_searcher"
+brew "tmux"
 brew "zsh-history-substring-search"
 brew "zsh-syntax-highlighting"
 
