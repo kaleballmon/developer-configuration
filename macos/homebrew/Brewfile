@@ -2,6 +2,7 @@ tap "dlvhdr/formulae"
 
 brew "dlvhdr/formulae/diffnav"
 brew "fzf"
+brew "pyenv"
 brew "starship"
 brew "the_silver_searcher"
 brew "tmux"

@@ -56,11 +56,20 @@ A better `git diff` pager.
 
 **Note: Extra configuration is needed for this to work automatically on shell startups.**
 
+
 ### [fzf](https://formulae.brew.sh/formula/fzf)
 
 A general-purpose command-line fuzzy finder.
 
 **Note: Extra configuration is needed for this to work automatically on shell startups.**
+
+
+### [pyenv](https://formulae.brew.sh/formula/pyenv)
+
+Python version management.
+
+**Note: Extra configuration is needed for this to work automatically on shell startups.**
+
 
 ### [starship](https://formulae.brew.sh/formula/starship)
 
@@ -68,19 +77,23 @@ The [starship](https://starship.rs/) cross-shell prompt.
 
 **Note: Extra configuration is needed for this to work automatically on shell startups.**
 
+
 ### [the_silver_searcher](https://formulae.brew.sh/formula/the_silver_searcher)
 
 The `ag` command, which is a code-search commandline utility.
 
+
 ### [tmux](https://formulae.brew.sh/formula/tmux)
 
 Terminal multiplexer.
+
 
 ### [zsh-history-substring-search](https://formulae.brew.sh/formula/zsh-history-substring-search)
 
 A Zsh port of Fish shell's history search.
 
 **Note: Extra configuration is needed for this to work automatically on shell startups.**
+
 
 ### [zsh-syntax-highlighting](https://formulae.brew.sh/formula/zsh-syntax-highlighting)
 
