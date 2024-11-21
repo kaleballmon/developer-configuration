@@ -1,6 +1,4 @@
-tap "dlvhdr/formulae"
-
-brew "dlvhdr/formulae/diffnav"
+brew "git-delta"
 brew "fzf"
 brew "pyenv"
 brew "starship"

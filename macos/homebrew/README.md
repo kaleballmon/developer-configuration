@@ -50,7 +50,7 @@ to the Brewfile the machine is looking at.
 
 ## Brewfile Formulae Listing
 
-### [diffnav](https://github.com/dlvhdr/diffnav)
+### [delta](https://formulae.brew.sh/formula/git-delta)
 
 A better `git diff` pager.
 
