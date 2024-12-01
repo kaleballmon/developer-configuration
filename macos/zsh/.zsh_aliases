@@ -1,3 +1,0 @@
-# Ask permission before overwriting existing file with cp
-alias cp='cp -i'
-alias select-tmux-link="tmux capture-pane -J -p | grep -oE '(https?):\/\/.*[^>]' | fzf-tmux | xargs open"
