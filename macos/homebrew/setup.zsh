@@ -1,12 +1,11 @@
 #!/usr/bin/env zsh
 
-
 HOMEBREW_EXEC_PATH='/opt/homebrew/bin/brew'
 ZPROFILE="$HOME/.zprofile"
 ZSHRC="$HOME/.zshrc"
 
 
-# Create .zprofile and .zshrc files if thety don't exist.
+# Create .zprofile and .zshrc files if they don't exist
 if [[ ! -f "$ZPROFILE" ]]
 then
   echo "# Kaleb's .zprofile" >> "$ZPROFILE"
@@ -17,7 +16,7 @@ fi
 
 if [[ ! -f "$ZSHRC" ]]
 then
-  echo "# Kaleb's .zrc" >> "$ZSHRC"
+  echo "# Kaleb's .zshrc" >> "$ZSHRC"
   echo >> "$ZSHRC"
 fi
 
