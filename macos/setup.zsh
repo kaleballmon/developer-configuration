@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/env zsh
 
 source "$(dirname $(realpath "$0"))/lib/utils/config_path_getters.zsh"
 

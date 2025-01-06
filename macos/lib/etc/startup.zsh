@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/env zsh
 
 ZSHRCS_DIR="$HOME/.zshrcs"
 ZSHRCS_STARTUP_FILES_DIR="$ZSHRCS_DIR/src"

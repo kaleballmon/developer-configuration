@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/env zsh
 
 get_home_config_dir () {
   echo "$HOME/.config"
