@@ -1,1 +1,0 @@
-alias rebase-master="git checkout master && git fetch && git pull && git checkout - && git rebase -i --autosquash master"
