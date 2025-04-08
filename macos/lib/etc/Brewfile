@@ -8,3 +8,4 @@ brew "zsh-history-substring-search"
 brew "zsh-syntax-highlighting"
 
 cask "font-fira-code-nerd-font"
+cask "1password-cli"
