@@ -1,6 +1,7 @@
 brew "git-delta"
 brew "fzf"
 brew "pyenv"
+brew "shfmt"
 brew "starship"
 brew "the_silver_searcher"
 brew "tmux"
