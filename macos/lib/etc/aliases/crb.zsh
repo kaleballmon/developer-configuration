@@ -3,9 +3,9 @@
 # *c*heckout *r*ecent *b*ranch
 crb() {
     local count="$1"
+    # Default to 10
     if [[ -z "$count" ]]; then
-        echo "Usage: crb <number>"
-        return 1
+        count=10
     fi
 
     local branch_output=$(git branch --sort=-committerdate | head -n "$count" | sed 's/^[* ] //')
