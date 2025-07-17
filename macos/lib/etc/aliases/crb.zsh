@@ -8,7 +8,7 @@ crb() {
         return 1
     fi
 
-    local branch_output=$(git branch --sort=-committerdate | tail -n +2 | head -n "$count" | sed 's/^  //')
+    local branch_output=$(git branch --sort=-committerdate | head -n "$count" | sed 's/^[* ] //')
 
     # Split by newline (works in both Bash and ZSH)
     local branches=()
