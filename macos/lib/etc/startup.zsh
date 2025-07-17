@@ -3,7 +3,6 @@
 ZSHRCS_DIR="$HOME/.zshrcs"
 ZSHRCS_STARTUP_FILES_DIR="$ZSHRCS_DIR/src"
 
-
 # Enable Zsh autocompletion
 autoload -Uz compinit && compinit
 
