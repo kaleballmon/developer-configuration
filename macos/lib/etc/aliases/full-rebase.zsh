@@ -1,3 +1,5 @@
+#!/usr/bin/env zsh
+
 function full-rebase() {
 	if [[ -z "$1" ]]; then
 	  echo "Error: Missing required argument."
