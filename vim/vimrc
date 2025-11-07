@@ -1,1 +1,5 @@
 filetype plugin indent on
+
+augroup FiletypeSpecificIndents
+  autocmd FileType vim setlocal tabstop=2 softtabstop=2 shiftwidth=2 expandtab
+augroup END
