@@ -1,3 +1,4 @@
+brew "calcurse"
 brew "fzf"
 brew "git-delta"
 brew "pyenv"
