@@ -1,5 +1,5 @@
-brew "git-delta"
 brew "fzf"
+brew "git-delta"
 brew "pyenv"
 brew "shfmt"
 brew "sqlfluff"
