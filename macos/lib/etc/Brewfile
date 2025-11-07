@@ -1,6 +1,7 @@
 brew "calcurse"
 brew "fzf"
 brew "git-delta"
+brew "lilypond"
 brew "pyenv"
 brew "shfmt"
 brew "sqlfluff"
