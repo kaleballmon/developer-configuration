@@ -8,6 +8,7 @@ brew "sqlfluff"
 brew "starship"
 brew "the_silver_searcher"
 brew "tmux"
+brew "trash"
 brew "zsh-history-substring-search"
 brew "zsh-syntax-highlighting"
 
